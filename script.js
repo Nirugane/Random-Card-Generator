@@ -25,3 +25,4 @@ const generateNewCard = () => {
 window.onload = generateNewCard;
 
 button.addEventListener('click', generateNewCard);
+setInterval(generateNewCard, 5000);
